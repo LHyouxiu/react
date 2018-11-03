@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #wrapper{
+            width:100%;
+            position: absolute;
+            bottom: 98px;
+            top:88px;
+            overflow: hidden;
+            border:1px solid red;
+        }
+        #header,#footer{
+            height: 200px;
+        }
+        .content>li{
+            line-height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="wrapper">
+        <ul class="content">
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+            <li>1111</li>
+        </ul>
+
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="bscroll.js"></script>
+<script>
+    var wrapper = document.getElementById("wrapper");
+    
+    new BScroll(wrapper)
+</script>
